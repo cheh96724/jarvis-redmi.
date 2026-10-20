@@ -16,4 +16,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "JARVIS-Redmi"
 include(":app")
-project(":app").projectDir = file(".")
