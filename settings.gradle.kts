@@ -6,7 +6,7 @@ pluginManagement {
     }
 }
 
- dependencyResolutionManagement {
+dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
@@ -16,3 +16,4 @@ pluginManagement {
 
 rootProject.name = "JARVIS-Redmi"
 include(":app")
+project(":app").projectDir = file(".")
